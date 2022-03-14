@@ -13,6 +13,7 @@ def openfile2():
     file2 = docx2txt.process(filepath)
 
 def submit():
+    #submit button
     global contents
     contents = [file1,file2]
     from sklearn.feature_extraction.text import CountVectorizer
